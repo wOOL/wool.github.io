@@ -1,449 +1,641 @@
-<!DOCTYPE html>
-<html lang="en">
-<!-- #####Begin head-->
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- globalise scripting and styling content language-->
-    <meta name="Content-Type-Script" content="text/javascript">
-    <meta name="Content-Type-Style" content="text/css">
-    <!-- #####Begin styles-->
-    <!-- stylesheets	-->
-    <link href="assets/css/vendors/vendors.css" rel="stylesheet" type="text/css">
-    <!-- Load extra page specific css-->
-    <!-- Overwrite vendors-->
-    <link href="assets/css/vendors/vendors-overwrites.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
-    <!-- #####End styles-->
-    <!-- #####Begin JS-->
-    <!-- add your scripts to the end of the page for sake of page load speed-->
-    <!-- scripts that need to be at head section-->
-    <script src="assets/js/vendors/jquery.min.js"></script>
-    <!-- #####End JS-->
-    <!-- #####Begin load google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Play:400,700&amp;subset=latin,greek,cyrillic" rel="stylesheet"
-          type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Sintony:400,700&amp;subset=latin,greek,cyrillic"
-          rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic&amp;subset=latin,greek,cyrillic"
-          rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,200,300,400italic,500,700,900&amp;subset=latin,greek,cyrillic"
-          rel="stylesheet" type="text/css">
-    <!-- #####End load google fonts-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"/>
     <title>Yongxin Yang</title>
+    <meta name="description" content="Yongxin Yang"/>
+    <link rel="canonical" href="https://yang.ac"/>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117236819-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-117236819-1');
+    </script>
 </head>
-<!-- #####End head-->
-<body class="fullwidth side-header slim-container">
-<div id="wrapper" class="regular-layout">
-    <header id="header" class=" dark">
-        <div class="head-main">
-            <div class="container">
-                <div class="logo-wrapper">
-                    <div class="ol-user-profile"><a href="#" class="avatar"><img src="assets/img/avatar.jpg"></a>
-                        <h1 class="title">Yongxin Yang</h1>
-                        <h2 class="subtitle">Postdoc @ The University of Edinburgh</h2>
-                    </div>
-                </div>
-                <ul id="primary-menu">
-                    <li class="current-menu-item"><a href="index.html" title="Home"><span>Home</span></a>
-                    </li>
-                    <li><a href="#publications" title="Publications"><span>Publications</span></a>
-                    </li>
-                    <li><a href="CV.pdf" title="Download CV"><span>Download CV</span></a>
-                    </li>
-                </ul>
-                <div class="header-icons">
-                    <!-- #####Begin mobile menu trigger-->
-                    <div class="ol-mobile-trigger hamburger hamburger--elastic">
-                        <div class="hamburger-box">
-                            <div class="hamburger-inner"></div>
-                        </div>
-                    </div>
-                    <!-- #####End mobile menu trigger-->
-                </div>
-            </div>
-        </div>
-        <div data-img-src="assets/img/bg/01.jpg" class="header-bg set-bg ov-dark-alpha-70"></div>
-    </header>
-    <!-- end #header-->
-    <section id="contents">
-        <div class="page-contents">
-            <!-- #####Begin main area-->
-            <section id="main-area">
-                <section class="section p-top-0">
-                    <div class="ol-particles h-200"></div>
-                    <div class="container pull-up-50">
-                        <h2>Short Bio</h2>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <p>ACCA certified accountant, specialised in money laundering and tax avoidance.</p>
-                                <p>Occasionally do some research in machine learning.</p>
-                                <p>
-                                    <del>Happily retired.</del>
-                                </p>
-                                <p>Unretire and join the University of Edinburgh as a postdoc.</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h4 class="with-underline">Education</h4>
-                                <ul class="with-shaded-label">
-                                    <li>
-                                        <h3 class="title"><span class="shaded-label">Sep 2013 – Jul 2017</span>PHD
-                                            IN COMPUTER SCIENCE</h3>
-                                        <div class="description">
-                                            <p>Queen Mary, University of London</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <h3 class="title"><span class="shaded-label">Sep 2011 – Sep 2012</span>MSC IN
-                                            COMPUTATIONAL STATISTICS AND MACHINE LEARNING
-                                        </h3>
-                                        <div class="description">
-                                            <p>University College London</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <h3 class="title"><span class="shaded-label">Sep 2009 – Jun 2011</span>BSC IN
-                                            ACTUARIAL MATHEMATICS AND STATISTICS
-                                        </h3>
-                                        <div class="description">
-                                            <p>Kingston University London</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <h3 class="title"><span class="shaded-label">Sep 2007 – Jun 2009</span>BA IN
-                                            INTERNATIONAL FINANCE
-                                        </h3>
-                                        <div class="description">
-                                            <p>Beijing Normal University, Zhuhai</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="sp-blank-50 shadow-line"></div>
-                    </div>
-                </section>
-                <section class="section bg-gray">
-                    <div class="container" id="publications">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <h2>Publications</h2>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Learning to Compare: Relation Network for Few-Shot
-                                            Learning</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                Conference on Computer Vision and Pattern Recognition (CVPR) 2018
-                                                <br>Flood Sung, Yongxin Yang, Li Zhang, Tao Xiang, Philip H.S. Torr, and
-                                                Timothy M. Hospedales
-                                            </div>
-                                            <a href="papers/Sung2018Learning.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Learning Deep Sketch Abstraction</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                Conference on Computer Vision and Pattern Recognition (CVPR) 2018
-                                                <br>Umar Muhammad, Yongxin Yang, Yi-Zhe Song, Tao Xiang, and Timothy M.
-                                                Hospedales
-                                            </div>
-                                            <a href="papers/Muhammad2018Learning.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Deep Stock Representation Learning: From Candlestick Charts to
-                                            Investment Decisions</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                Conference on Computer Vision and Pattern Recognition (CVPR) 2018)
-                                                <br>Guosheng Hu, Yuxin Hu, Kai Yang, Zehao Yu, Flood Sung, Zhihong
-                                                Zhang, Fei Xie, Jianguo Liu, Neil Robertson, Timothy Hospedales, and
-                                                Qiangwei Miemie
-                                            </div>
-                                            <a href="https://arxiv.org/pdf/1709.03803.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Learning to Generalize: Meta-Learning for Domain
-                                            Generalization</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                AAAI Conference on Artificial Intelligence (AAAI) 2018
-                                                <br>Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy Hospedales
-                                            </div>
-                                            <a href="https://arxiv.org/pdf/1710.03463.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Frankenstein: Learning Deep Face Representations using Small
-                                            Data</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                IEEE Transactions on Image Processing (TIP) 2017
-                                                <br>Guosheng Hu, Xiaojiang Peng, Yongxin Yang, Timothy Hospedales, and
-                                                Jakob Verbeek
-                                            </div>
-                                            <a href="https://arxiv.org/pdf/1603.06470.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Attribute-Enhanced Face Recognition with Neural Tensor Fusion
-                                            Networks</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                International Conference on Computer Vision (ICCV) 2017 (Spotlight)
-                                                <br>Guosheng Hu, Yang Hua, Yang Yuan, Zhihong Zhang, Zheng Lu, Sankha
-                                                Mukherjee, Timothy Hospedales, Neil Robertson, and Yongxin Yang
-                                            </div>
-                                            <a href="papers/Hu2017Attribute.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Deeper, Broader and Artier Domain Generalization</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                International Conference on Computer Vision (ICCV) 2017
-                                                <br>Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy Hospedales
-                                            </div>
-                                            <a href="papers/Li2017Deeper.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Deep Multi-task Representation Learning: A Tensor
-                                            Factorisation Approach</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                International Conference on Learning Representations (ICLR) 2017
-                                                <br>Yongxin Yang and Timothy Hospedales
-                                            </div>
-                                            <a href="papers/Yang2017Deep.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Gated Neural Networks for Option Pricing: Rationality by
-                                            Design</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                AAAI Conference on Artificial Intelligence (AAAI) 2017 (Oral)
-                                                <br>Yongxin Yang, Yu Zheng, and Timothy Hospedales
-                                            </div>
-                                            <a href="papers/Yang2017Gated.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Spectroscopic super-resolution fluorescence cell imaging using
-                                            ultra-small Ge quantum dots</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                Optics Express 2017
-                                                <br>Mingying Song, Ali Karatutlu, Isma Ali, Osman Ersoy, Yun Zhou,
-                                                Yongxin Yang, Yuanpeng Zhang, William R. Little, Ann P. Wheeler, and
-                                                Andrei V. Sapelkin
-                                            </div>
-                                            <a href="papers/Song2017Spectroscopic.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Multivariate Regression on the Grassmannian for Predicting
-                                            Novel Domains</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                Computer Vision and Pattern Recognition (CVPR) 2016
-                                                <br>Yongxin Yang and Timothy Hospedales
-                                            </div>
-                                            <a href="papers/Yang2016Multivariate.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Weakly-Supervised Image Annotation and Segmentation with
-                                            Objects and Attributes</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-                                                2016
-                                                <br>Zhiyuan Shi, Yongxin Yang, Timothy Hospedales, and Tao Xiang
-                                            </div>
-                                            <a href="papers/Shi2016Weakly.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Sketch-a-Net: A Deep Neural Network that Beats Humans</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                International Journal of Computer Vision (IJCV) 2016
-                                                <br>Qian Yu, Yongxin Yang, Feng Liu, Yi-Zhe Song, Tao Xiang, and Timothy
-                                                Hospedales
-                                            </div>
-                                            <a href="papers/Yu2016Sketchanet.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Sketch-a-Net that Beats Humans</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                British Machine Vision Conference (BMVC) 2015 (Best Paper)
-                                                <br>Qian Yu*, Yongxin Yang*, Yi-Zhe Song, Tao Xiang, and Timothy
-                                                Hospedales
-                                            </div>
-                                            <a href="papers/Yu2015Sketchanet.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">A Unified Perspective on Multi-Domain and Multi-Task
-                                            Learning</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                International Conference on Learning Representations (ICLR) 2015
-                                                <br>Yongxin Yang and Timothy Hospedales
-                                            </div>
-                                            <a href="papers/Yang2015Unified.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Transductive Multi-label Zero-shot Learning</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                British Machine Vision Conference (BMVC) 2014 (Oral)
-                                                <br>Yanwei Fu, Yongxin Yang, Timothy Hospedales, Tao Xiang, and Shaogang
-                                                Gong
-                                            </div>
-                                            <a href="papers/Fu2014Transductive.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="pub-item with-icon">
-                                    <div class="elem-wrapper"><i class="oli oli-bookmark"></i></div>
-                                    <div class="content-wrapper">
-                                        <h3 class="title">Weakly Supervised Learning of Objects, Attributes and their
-                                            Associations</h3>
-                                        <div class="description">
-                                            <div class="citation">
-                                                European Conference on Computer Vision (ECCV) 2014
-                                                <br>Zhiyuan Shi, Yongxin Yang, Timothy Hospedales, and Tao Xiang
-                                            </div>
-                                            <a href="papers/Shi2014Weakly.pdf" class="link-with-icon"> <i
-                                                    class="fa fa-external-link"></i>PDF</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </section>
-            <!-- #####End main area
-            -->
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- end #contents-->
-    <footer id="footer">
-        <div id="footer-main" class="text-center bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <!--
-                        <ul class="social-icons shape-circle hover-theme m-top-20">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                        -->
-                        <div class="sp-blank-20"></div>
-                        <div class="copyright">2018 <a href="http://creativecommons.org/publicdomain/zero/1.0/">No
-                            Rights Reserved.</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- end #footer-->
-</div>
-<!-- #####Begin scripts-->
-<script src="assets/js/vendors/vendors.js"></script>
-<!-- Local Revolution tools-->
-<!-- Only for local and can be removed on server-->
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript"
-        src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="assets/js/custom.js"></script>
-<!-- #####End scripts-->
+<body>
+
+<header>
+    <h1>Yongxin Yang</h1>
+    <aside>
+        Postdoc @ The University of Edinburgh
+        <p>
+            <a href="CV.pdf">CV</a>,
+            <a href="https://scholar.google.co.uk/citations?user=F7PtrL8AAAAJ&hl=en">Google Scholar</a>,
+            <a href="https://github.com/wOOL">GitHub</a>,
+            <a href="https://www.inf.ed.ac.uk/people/staff/Yongxin_Yang.html">University Staff Page</a>
+        </p>
+    </aside>
+</header>
+
+<h2><strong>Bio</strong></h2>
+<p>My first paid job was an eSports player. People said that didn't count as a job, so I went to business school and
+    studied accounting and finance. I used to think that I would be one of the suits and work in a bank. Embarrassingly,
+    I end up coding everyday. There must be something wrong, I guess.</p>
+<p>I'm a machine learning researcher (a casual one). Broadly speaking, I'm interested in two topics: (i) how can we
+    check or guarantee the sanity in the model’s predictions; (ii) how can we improve the sample efficiency by
+    leveraging previous experience.</p>
+<p>I did some research in machine learning (e.g., transfer learning, domain adaptation, and multi-task learning), with
+    applications to computer vision, physics, and finance. Recently, I started doing some work in meta-learning.</p>
+<h2><strong>Publication</strong></h2>
+<h3>Preprint</h3>
+<ul>
+    <li>
+        Learning to Learn: Meta-Critic Networks for Sample Efficient Learning<br>
+        Flood Sung, Li Zhang, Tao Xiang, Timothy Hospedales, and Yongxin Yang<br>
+        <a href="https://arxiv.org/pdf/1706.09529.pdf">[PDF]</a>
+        <label for="publication2" class="bib_label">[BibTeX]</label>
+        <input id="publication2" type="checkbox" style="visibility:hidden">
+        <code id="bibtex2">
+            @article{sung2017learning,
+            title={Learning to learn: Meta-critic networks for sample efficient learning},
+            author={Sung, Flood and Zhang, Li and Xiang, Tao and Hospedales, Timothy and Yang, Yongxin},
+            journal={arXiv preprint arXiv:1706.09529},
+            year={2017}
+            }
+        </code><br>
+        arXiv preprint arXiv:1706.09529, 2017
+    </li>
+</ul>
+<h3>Conference</h3>
+<ul>
+    <li>
+        Learning to Compare: Relation Network for Few-Shot Learning<br>
+        Flood Sung, Yongxin Yang, Li Zhang, Tao Xiang, Philip H.S. Torr, and Timothy M. Hospedales<br>
+        <a href="papers/Sung2018Learning.pdf">[PDF]</a>
+        <a href="https://github.com/songrotek/LearningToCompare_FSL">[Code]</a>
+        <label for="publication1" class="bib_label">[BibTeX]</label>
+        <input id="publication1" type="checkbox" style="visibility:hidden">
+        <code id="bibtex1">
+            @inproceedings{sung2018learning,
+            title={Learning to Compare: Relation Network for Few-Shot Learning},
+            author={Sung, Flood and Yang, Yongxin and Zhang, Li and Xiang, Tao and Torr, Philip H.S. and Hospedales,
+            Timothy M.},
+            booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+            year={2018}
+            }
+        </code><br>
+        Computer Vision and Pattern Recognition (CVPR) 2018
+    </li>
+    <li>
+        Learning Deep Sketch Abstraction<br>
+        Umar Riaz Muhammad, Yongxin Yang, Yi-Zhe Song, Tao Xiang, and Timothy M. Hospedales<br>
+        <a href="papers/Muhammad2018Learning.pdf">[PDF]</a>
+        <label for="publication12" class="bib_label">[BibTeX]</label>
+        <input id="publication12" type="checkbox" style="visibility:hidden">
+        <code id="bibtex12">
+            @inproceedings{muhammad2018learning,
+            title={Learning Deep Sketch Abstraction},
+            author={Muhammad, Umar Riaz and Yang, Yongxin and Song, Yi-Zhe and Xiang, Tao and Hospedales, Timothy M.},
+            booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
+            year={2018}
+            }
+        </code><br>
+        Computer Vision and Pattern Recognition (CVPR) 2018
+    </li>
+    <li>
+        Deep Stock Representation Learning: From Candlestick Charts to Investment Decisions<br>
+        Guosheng Hu, Yuxin Hu, Kai Yang, Zehao Yu, Flood Sung, Zhihong Zhang, Fei Xie, Jianguo Liu, Neil Robertson,
+        Timothy Hospedales, and Qiangwei Miemie<br>
+        <a href="https://arxiv.org/pdf/1709.03803.pdf">[PDF]</a>
+        <label for="publication13" class="bib_label">[BibTeX]</label>
+        <input id="publication13" type="checkbox" style="visibility:hidden">
+        <code id="bibtex13">
+            @inproceedings{hu2018deep,
+            title={Deep Stock Representation Learning: From Candlestick Charts to Investment Decisions},
+            author = {{Hu}, Guosheng and {Hu}, Yuxin and {Yang}, Kai and {Yu}, Zehao and {Sung}, Flood and
+            {Zhang}, Zhihong and {Xie}, Fei and {Liu}, Jianguo and {Robertson}, Neil and
+            {Hospedales}, Timothy and {Miemie}, Qiangwei},
+            booktitle={International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+            year={2018}
+            }
+        </code><br>
+        International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2018
+    </li>
+    <li>
+        Learning to Generalize: Meta-Learning for Domain Generalization<br>
+        Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy M. Hospedales<br>
+        <a href="https://arxiv.org/pdf/1710.03463.pdf">[PDF]</a>
+        <label for="publication14" class="bib_label">[BibTeX]</label>
+        <input id="publication14" type="checkbox" style="visibility:hidden">
+        <code id="bibtex14">
+            @inproceedings{li2018learning,
+            title={Learning to Generalize: Meta-Learning for Domain Generalization},
+            author = {Li, Da and Yang, Yongxin and Song, Yi-Zhe and Hospedales, Timothy M.},
+            booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+            year={2018}
+            }
+        </code><br>
+        AAAI Conference on Artificial Intelligence (AAAI) 2018
+    </li>
+    <li>
+        Attribute-Enhanced Face Recognition with Neural Tensor Fusion Networks<br>
+        Guosheng Hu, Yang Hua, Yang Yuan, Zhihong Zhang, Zheng Lu, Sankha S. Mukherjee, Timothy M. Hospedales, Neil M.
+        Robertson,
+        and Yongxin Yang<br>
+        <a href="papers/Hu2017Attribute.pdf">[PDF]</a>
+        <a href="https://github.com/yanghuadr/Neural-Tensor-Fusion-Network">[Code]</a>
+        <a href="https://www.youtube.com/watch?v=eorRhlATKf4">[Video]</a>
+        <label for="publication15" class="bib_label">[BibTeX]</label>
+        <input id="publication15" type="checkbox" style="visibility:hidden">
+        <code id="bibtex15">
+            @INPROCEEDINGS{8237666,
+            author={G. Hu and Y. Hua and Y. Yuan and Z. Zhang and Z. Lu and S. S. Mukherjee and T. M. Hospedales and N.
+            M. Robertson and Y. Yang},
+            booktitle={2017 IEEE International Conference on Computer Vision (ICCV)},
+            title={Attribute-Enhanced Face Recognition with Neural Tensor Fusion Networks},
+            year={2017},
+            volume={},
+            number={},
+            pages={3764-3773},
+            keywords={face recognition;feature extraction;image fusion;learning (artificial intelligence);neural
+            nets;optimisation;tensors;Attribute-enhanced face recognition;deep learning;deep-learned features;face
+            recognition features;face recognition performance;facial attribute features;feature fusion;intra-personal
+            variations;low-rank tensor optimisation;neural network optimisation tools;neural tensor fusion
+            networks;tensor optimisation problem;tensor-based framework;tractable learning;two-stream gated neural
+            network;Face;Face recognition;Machine learning;Neural networks;Optimization;Robustness;Tensile stress},
+            doi={10.1109/ICCV.2017.404},
+            ISSN={},
+            month={Oct},}
+        </code><br>
+        International Conference on Computer Vision (ICCV) 2017 (Spotlight)
+    </li>
+    <li>
+        Deeper, Broader and Artier Domain Generalization<br>
+        Da Li, Yongxin Yang, Yi-Zhe Song, and Timothy M. Hospedales<br>
+        <a href="papers/Li2017Deeper.pdf">[PDF]</a>
+        <a href="http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017">[Dataset]</a>
+        <label for="publication16" class="bib_label">[BibTeX]</label>
+        <input id="publication16" type="checkbox" style="visibility:hidden">
+        <code id="bibtex16">
+            @INPROCEEDINGS{8237853,
+            author={D. Li and Y. Yang and Y. Z. Song and T. M. Hospedales},
+            booktitle={2017 IEEE International Conference on Computer Vision (ICCV)},
+            title={Deeper, Broader and Artier Domain Generalization},
+            year={2017},
+            volume={},
+            number={},
+            pages={5543-5551},
+            keywords={computer vision;learning (artificial intelligence);DG alternatives;DG benchmark dataset;DG
+            methods;benchmarks;bigger domain shift;cartoon;data sparsity;deep learning methods;distinct
+            characteristics;domain generalization;domain-agnostic model;end-to-end DG learning;favorable domain
+            shift-robust properties;multiple training domains;painting domains;simple deep learning baselines;target
+            domains;Adaptation models;Benchmark testing;Cameras;Machine learning;Neural networks;Nickel;Painting},
+            doi={10.1109/ICCV.2017.591},
+            ISSN={},
+            month={Oct},}
+        </code><br>
+        International Conference on Computer Vision (ICCV) 2017
+    </li>
+    <li>
+        Deep Multi-task Representation Learning: A Tensor Factorisation Approach<br>
+        Yongxin Yang and Timothy M. Hospedales<br>
+        <a href="papers/Yang2017Deep.pdf">[PDF]</a>
+        <a href="https://github.com/wOOL/DMTRL">[Code]</a>
+        <label for="publication17" class="bib_label">[BibTeX]</label>
+        <input id="publication17" type="checkbox" style="visibility:hidden">
+        <code id="bibtex17">
+            @inproceedings{yang2017deep,
+            title={Deep Multi-task Representation Learning: A Tensor Factorisation Approach},
+            author={Yang, Yongxin and Hospedales, Timothy M.},
+            booktitle={International Conference on Learning Representations (ICLR)},
+            year={2017}
+            }
+        </code><br>
+        International Conference on Learning Representations (ICLR) 2017
+    </li>
+    <li>
+        Gated Neural Networks for Option Pricing: Rationality by Design<br>
+        Yongxin Yang, Yu Zheng, and Timothy M. Hospedales<br>
+        <a href="papers/Yang2017Gated.pdf">[PDF]</a>
+        <label for="publication18" class="bib_label">[BibTeX]</label>
+        <input id="publication18" type="checkbox" style="visibility:hidden">
+        <code id="bibtex18">
+            @inproceedings{yang2017gated,
+            title={Gated Neural Networks for Option Pricing: Rationality by Design},
+            author={Yang, Yongxin and Zheng, Yu and Hospedales, Timothy M.},
+            booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
+            year={2017}
+            }
+        </code><br>
+        AAAI Conference on Artificial Intelligence (AAAI) 2017
+    </li>
+    <li>
+        Multivariate Regression on the Grassmannian for Predicting Novel Domains<br>
+        Yongxin Yang and Timothy M. Hospedales<br>
+        <a href="papers/Yang2016Multivariate.pdf">[PDF]</a>
+        <label for="publication19" class="bib_label">[BibTeX]</label>
+        <input id="publication19" type="checkbox" style="visibility:hidden">
+        <code id="bibtex19">
+            @INPROCEEDINGS{7780917,
+            author={Y. Yang and T. M. Hospedales},
+            booktitle={2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+            title={Multivariate Regression on the Grassmannian for Predicting Novel Domains},
+            year={2016},
+            volume={},
+            number={},
+            pages={5071-5080},
+            keywords={extrapolation;meta data;object recognition;regression analysis;Grassmannian;cross-domain visual
+            recognition;data domain adaptation;direct kernel regression;domain adaptation;domain meta data;extrapolation
+            properties;multivariate regression;visual object recognition;Adaptation
+            models;Kernel;Manifolds;Metadata;Multivariate regression;Predictive models},
+            doi={10.1109/CVPR.2016.548},
+            ISSN={},
+            month={June},}
+        </code><br>
+        Conference on Computer Vision and Pattern Recognition (CVPR) 2016
+    </li>
+    <li>
+        Sketch-a-Net that Beats Humans<br>
+        Qian Yu<sup>*</sup>, Yongxin Yang<sup>*</sup>, Yi-Zhe Song, Tao Xiang, and Timothy M. Hospedales<br>
+        <a href="papers/Yu2015Sketchanet.pdf">[PDF]</a>
+        <a href="http://homepages.inf.ed.ac.uk/thospeda/downloads/SketchANet_Code.zip">[Code]</a>
+        <a href="http://homepages.inf.ed.ac.uk/thospeda/downloads/SketchANet_Model.zip">[Model]</a>
+        <a href="http://www.bmva.org/bmvc/2015/papers/paper007/index.html">[Video]</a>
+        <label for="publication20" class="bib_label">[BibTeX]</label>
+        <input id="publication20" type="checkbox" style="visibility:hidden">
+        <code id="bibtex20">
+            @inproceedings{BMVC2015_7,
+            title={Sketch-a-Net that Beats Humans},
+            author={Qian Yu and Yongxin Yang and Yi-Zhe Song and Tao Xiang and Timothy Hospedales},
+            year={2015},
+            month={September},
+            pages={7.1-7.12},
+            articleno={7},
+            numpages={12},
+            booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
+            publisher={BMVA Press},
+            editor={Xianghua Xie, Mark W. Jones, and Gary K. L. Tam},
+            doi={10.5244/C.29.7},
+            isbn={1-901725-53-7},
+            url={https://dx.doi.org/10.5244/C.29.7}
+            }
+        </code><br>
+        British Machine Vision Conference (BMVC) 2015 (Best Paper)
+    </li>
+    <li>
+        A Unified Perspective on Multi-Domain and Multi-Task Learning<br>
+        Yongxin Yang and Timothy M. Hospedales<br>
+        <a href="papers/Yang2015Unified.pdf">[PDF]</a>
+        <label for="publication21" class="bib_label">[BibTeX]</label>
+        <input id="publication21" type="checkbox" style="visibility:hidden">
+        <code id="bibtex21">
+            @inproceedings{yang2015unified,
+            title={A Unified Perspective on Multi-Domain and Multi-Task Learning},
+            author={Yang, Yongxin and Hospedales, Timothy M.},
+            booktitle={International Conference on Learning Representations (ICLR)},
+            year={2015}
+            }
+        </code><br>
+        International Conference on Learning Representations (ICLR) 2015
+    </li>
+    <li>
+        Transductive Multi-label Zero-shot Learning<br>
+        Yanwei Fu, Yongxin Yang, Timothy Hospedales, Tao Xiang, and Shaogang Gong<br>
+        <a href="papers/Fu2014Transductive.pdf">[PDF]</a>
+        <a href="http://www.bmva.org/bmvc/2014/papers/paper083/index.html">[Video]</a>
+        <label for="publication22" class="bib_label">[BibTeX]</label>
+        <input id="publication22" type="checkbox" style="visibility:hidden">
+        <code id="bibtex22">
+            @inproceedings{BMVC.28.7
+            title = {Transductive Multi-label Zero-shot Learning},
+            author = {Fu, Yanwei and Yang, Yongxin and Hospedales, Tim and Xiang, Tao and Gong, Shaogang},
+            year = {2014},
+            booktitle = {Proceedings of the British Machine Vision Conference},
+            publisher = {BMVA Press},
+            editors = {Valstar, Michel and French, Andrew and Pridmore, Tony}
+            doi = { http://dx.doi.org/10.5244/C.28.7 }
+            }
+        </code><br>
+        British Machine Vision Conference (BMVC) 2014 (Oral)
+    </li>
+    <li>
+        Weakly Supervised Learning of Objects, Attributes and Their Associations<br>
+        Zhiyuan Shi, Yongxin Yang, Timothy M. Hospedales and Tao Xiang<br>
+        <a href="papers/Shi2014Weakly.pdf">[PDF]</a>
+        <label for="publication23" class="bib_label">[BibTeX]</label>
+        <input id="publication23" type="checkbox" style="visibility:hidden">
+        <code id="bibtex23">
+            @InProceedings{10.1007/978-3-319-10605-2_31,
+            author="Shi, Zhiyuan
+            and Yang, Yongxin
+            and Hospedales, Timothy M.
+            and Xiang, Tao",
+            editor="Fleet, David
+            and Pajdla, Tomas
+            and Schiele, Bernt
+            and Tuytelaars, Tinne",
+            title="Weakly Supervised Learning of Objects, Attributes and Their Associations",
+            booktitle="Computer Vision -- ECCV 2014",
+            year="2014",
+            publisher="Springer International Publishing",
+            address="Cham",
+            pages="472--487",
+            abstract="When humans describe images they tend to use combinations of nouns and adjectives, corresponding
+            to objects and their associated attributes respectively. To generate such a description automatically, one
+            needs to model objects, attributes and their associations. Conventional methods require strong annotation of
+            object and attribute locations, making them less scalable. In this paper, we model object-attribute
+            associations from weakly labelled images, such as those widely available on media sharing sites (e.g.
+            Flickr), where only image-level labels (either object or attributes) are given, without their locations and
+            associations. This is achieved by introducing a novel weakly supervised non-parametric Bayesian model. Once
+            learned, given a new image, our model can describe the image, including objects, attributes and their
+            associations, as well as their locations and segmentation. Extensive experiments on benchmark datasets
+            demonstrate that our weakly supervised model performs at par with strongly supervised models on tasks such
+            as image description and retrieval based on object-attribute associations.",
+            isbn="978-3-319-10605-2"
+            }
+        </code><br>
+        European Conference on Computer Vision (ECCV) 2014
+    </li>
+</ul>
+<h3>Journal</h3>
+<ul>
+    <li>
+        Frankenstein: Learning Deep Face Representations Using Small Data<br>
+        Guosheng Hu, Xiaojiang Peng, Yongxin Yang, Timothy M. Hospedales, and Jakob Verbeek<br>
+        <a href="https://arxiv.org/pdf/1603.06470.pdf">[PDF]</a>
+        <label for="publication6" class="bib_label">[BibTeX]</label>
+        <input id="publication6" type="checkbox" style="visibility:hidden">
+        <code id="bibtex6">
+            @ARTICLE{8049355,
+            author={G. Hu and X. Peng and Y. Yang and T. M. Hospedales and J. Verbeek},
+            journal={IEEE Transactions on Image Processing},
+            title={Frankenstein: Learning Deep Face Representations Using Small Data},
+            year={2018},
+            volume={27},
+            number={1},
+            pages={293-303},
+            keywords={data analysis;face recognition;image representation;learning (artificial intelligence);neural
+            nets;CASIA NIR-VIS2.0 heterogeneous face recognition data set;deep convolutional neural networks;labeled
+            images;learning deep face representations;near-infrared face recognition;real face images;small
+            data;synthetic images;training images;uncontrolled settings;very large training data sets;Face;Face
+            recognition;Machine learning;Mouth;Nose;Three-dimensional displays;Training;Face recognition;deep
+            learning;small training data},
+            doi={10.1109/TIP.2017.2756450},
+            ISSN={1057-7149},
+            month={Jan},}
+        </code><br>
+        IEEE Transactions on Image Processing (TIP) 2017
+    </li>
+    <li>
+        Spectroscopic super-resolution fluorescence cell imaging using ultra-small Ge quantum dots<br>
+        Mingying Song, Ali Karatutlu, Isma Ali, Osman Ersoy, Yun Zhou, Yongxin Yang, Yuanpeng Zhang, William R. Little,
+        Ann P. Wheeler, and Andrei V. Sapelkin<br>
+        <a href="papers/Song2017Spectroscopic.pdf">[PDF]</a>
+        <label for="publication3" class="bib_label">[BibTeX]</label>
+        <input id="publication3" type="checkbox" style="visibility:hidden">
+        <code id="bibtex3">
+            @article{Song:17,
+            author = {Mingying Song and Ali Karatutlu and Isma Ali and Osman Ersoy and Yun Zhou and Yongxin Yang and
+            Yuanpeng Zhang and William R. Little and Ann P. Wheeler and Andrei V. Sapelkin},
+            journal = {Opt. Express},
+            keywords = {Superresolution; Image analysis; Confocal microscopy; Fluorescence microscopy; Nanomaterials},
+            number = {4},
+            pages = {4240--4253},
+            publisher = {OSA},
+            title = {Spectroscopic super-resolution fluorescence cell imaging using ultra-small Ge quantum dots},
+            volume = {25},
+            month = {Feb},
+            year = {2017},
+            url = {http://www.opticsexpress.org/abstract.cfm?URI=oe-25-4-4240},
+            doi = {10.1364/OE.25.004240},
+            abstract = {We demonstrate a spectroscopic imaging based super-resolution approach by separating the
+            overlapping diffraction spots into several detectors during a single scanning period and taking advantage of
+            the size-dependent emission wavelength in nanoparticles. This approach has been tested using off-the-shelf
+            quantum dots (Invitrogen Qdot) and in-house novel ultra-small (~3 nm) Ge QDs. Furthermore, we developed a
+            method-specific Gaussian fitting and maximum likelihood estimation based on a Matlab algorithm for fast QD
+            localisation. This methodology results in a three-fold improvement in the number of localised QDs compared
+            to non-spectroscopic images. With the addition of advanced ultra-small Ge probes, the number can be improved
+            even further, giving at least 1.5 times improvement when compared to Qdots. Using a standard scanning
+            confocal microscope we achieved a data acquisition rate of 200 ms per image frame. This is an improvement on
+            single molecule localisation super-resolution microscopy where repeated image capture limits the imaging
+            speed, and the size of fluorescence probes limits the possible theoretical localisation resolution. We show
+            that our spectral deconvolution approach has a potential to deliver data acquisition rates on the ms scale
+            thus providing super-resolution in live systems.},
+            }
+        </code><br>
+        Optics Express (OE) 2017
+    </li>
+    <li>
+        Weakly-Supervised Image Annotation and Segmentation with Objects and Attributes<br>
+        Zhiyuan Shi, Yongxin Yang, Timothy M. Hospedales, and Tao Xiang<br>
+        <a href="papers/Shi2016Weakly.pdf">[PDF]</a>
+        <label for="publication7" class="bib_label">[BibTeX]</label>
+        <input id="publication7" type="checkbox" style="visibility:hidden">
+        <code id="bibtex7">
+            @ARTICLE{7797474,
+            author={Z. Shi and Y. Yang and T. M. Hospedales and T. Xiang},
+            journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+            title={Weakly-Supervised Image Annotation and Segmentation with Objects and Attributes},
+            year={2017},
+            volume={39},
+            number={12},
+            pages={2525-2538},
+            keywords={Bayes methods;Markov processes;image annotation;image classification;image segmentation;object
+            detection;object recognition;WS-MRF-SIBP;attribute classes;attribute prediction;automatic image
+            annotation;image retrieval;image segmentation;model complex visual scenes;nonparametric Bayesian
+            model;object detection;object-attribute associations;semantic segmentation;strongly supervised models;weak
+            image-level annotations;weakly labelled images;weakly supervised Markov random field stacked indian buffet
+            process;weakly supervised alternatives;weakly-supervised image annotation;Computer vision;Correlation;Data
+            models;Detectors;Image segmentation;Semantics;Training;Indian buffet process;Weakly supervised
+            learning;non-parametric Bayesian model;object-attribute association;semantic segmentation},
+            doi={10.1109/TPAMI.2016.2645157},
+            ISSN={0162-8828},
+            month={Dec},}
+        </code><br>
+        IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2016
+    </li>
+    <li>
+        Sketch-a-Net: A Deep Neural Network that Beats Humans<br>
+        Qian Yu, Yongxin Yang, Feng Liu, Yi-Zhe Song, Tao Xiang, and Timothy M. Hospedales<br>
+        <a href="papers/Yu2016Sketchanet.pdf">[PDF]</a>
+        <label for="publication8" class="bib_label">[BibTeX]</label>
+        <input id="publication8" type="checkbox" style="visibility:hidden">
+        <code id="bibtex8">
+            @Article{Yu2017,
+            author="Yu, Qian
+            and Yang, Yongxin
+            and Liu, Feng
+            and Song, Yi-Zhe
+            and Xiang, Tao
+            and Hospedales, Timothy M.",
+            title="Sketch-a-Net: A Deep Neural Network that Beats Humans",
+            journal="International Journal of Computer Vision",
+            year="2017",
+            month="May",
+            day="01",
+            volume="122",
+            number="3",
+            pages="411--425",
+            abstract="We propose a deep learning approach to free-hand sketch recognition that achieves state-of-the-art
+            performance, significantly surpassing that of humans. Our superior performance is a result of modelling and
+            exploiting the unique characteristics of free-hand sketches, i.e., consisting of an ordered set of strokes
+            but lacking visual cues such as colour and texture, being highly iconic and abstract, and exhibiting
+            extremely large appearance variations due to different levels of abstraction and deformation. Specifically,
+            our deep neural network, termed Sketch-a-Net has the following novel components: (i) we propose a network
+            architecture designed for sketch rather than natural photo statistics. (ii) Two novel data augmentation
+            strategies are developed which exploit the unique sketch-domain properties to modify and synthesise sketch
+            training data at multiple abstraction levels. Based on this idea we are able to both significantly increase
+            the volume and diversity of sketches for training, and address the challenge of varying levels of sketching
+            detail commonplace in free-hand sketches. (iii) We explore different network ensemble fusion strategies,
+            including a re-purposed joint Bayesian scheme, to further improve recognition performance. We show that
+            state-of-the-art deep networks specifically engineered for photos of natural objects fail to perform well on
+            sketch recognition, regardless whether they are trained using photos or sketches. Furthermore, through
+            visualising the learned filters, we offer useful insights in to where the superior performance of our
+            network comes from.",
+            issn="1573-1405",
+            doi="10.1007/s11263-016-0932-3",
+            url="https://doi.org/10.1007/s11263-016-0932-3"
+            }
+        </code><br>
+        International Journal of Computer Vision (IJCV) 2016
+    </li>
+</ul>
+<h3>Workshop</h3>
+<ul>
+    <li>
+        Actor-Critic Sequence Training for Image Captioning<br>
+        Li Zhang, Flood Sung, Feng Liu, Tao Xiang, Shaogang Gong, Yongxin Yang, Timothy M. Hospedales<br>
+        <a href="https://arxiv.org/pdf/1706.09601.pdf">[PDF]</a>
+        <label for="publication4" class="bib_label">[BibTeX]</label>
+        <input id="publication4" type="checkbox" style="visibility:hidden">
+        <code id="bibtex4">
+            @inproceedings{zhang2017actor,
+            title={Actor-Critic Sequence Training for Image Captioning},
+            author={Zhang, Li and Sung, Flood and Liu, Feng and Xiang, Tao and Gong, Shaogang and Yang, Yongxin and
+            Hospedales, Timothy M.},
+            booktitle={NIPS Workshop on Visually-Grounded Interaction and Language},
+            year={2017}
+            }
+        </code><br>
+        NIPS Workshop on Visually-Grounded Interaction and Language 2017
+    </li>
+    <li>
+        Trace Norm Regularised Deep Multi-Task Learning<br>
+        Yongxin Yang and Timothy M. Hospedales<br>
+        <a href="https://arxiv.org/pdf/1606.04038.pdf">[PDF]</a>
+        <a href="https://github.com/wOOL/TNRDMTL">[Code]</a>
+        <label for="publication9" class="bib_label">[BibTeX]</label>
+        <input id="publication9" type="checkbox" style="visibility:hidden">
+        <code id="bibtex9">
+            @inproceedings{yang2017trace,
+            title={Trace Norm Regularised Deep Multi-Task Learning},
+            author={Yang, Yongxin and Hospedales, Timothy M.},
+            booktitle={ICLR Workshop},
+            year={2017}
+            }
+        </code><br>
+        ICLR Workshop 2017
+    </li>
+    <li>
+        Zero-Shot Domain Adaptation via Kernel Regression on the Grassmannian<br>
+        Yongxin Yang and Timothy Hospedales<br>
+        <a href="https://arxiv.org/pdf/1507.07830.pdf">[PDF]</a>
+        <label for="publication10" class="bib_label">[BibTeX]</label>
+        <input id="publication10" type="checkbox" style="visibility:hidden">
+        <code id="bibtex10">
+            @inproceedings{DIFFCV2015_1,
+            title={Zero-Shot Domain Adaptation via Kernel Regression on the Grassmannian},
+            author={Yongxin Yang and Timothy Hospedales},
+            year={2015},
+            month={September},
+            pages={1.1-1.12},
+            articleno={1},
+            numpages={12},
+            booktitle={Proceedings of the 1st International Workshop on DIFFerential Geometry in Computer Vision for
+            Analysis of Shapes, Images and Trajectories (DIFF-CV 2015)},
+            publisher={BMVA Press},
+            editor={H. Drira, S. Kurtek, and P. Turaga},
+            doi={10.5244/C.29.DIFFCV.1},
+            isbn={1-901725-56-1},
+            url={https://dx.doi.org/10.5244/C.29.DIFFCV.1}
+            }
+        </code><br>
+        International Workshop on DIFFerential Geometry in Computer Vision for Analysis of Shapes, Images and
+        Trajectories (DIFF-CV) 2015
+    </li>
+    <li>
+        When Face Recognition Meets with Deep Learning: An Evaluation of Convolutional Neural Networks for Face
+        Recognition<br>
+        Guosheng Hu<sup>*</sup>, Yongxin Yang<sup>*</sup>, Dong Yi, Josef Kittler, William Christmas, Stan Z. Li, and
+        Timothy Hospedales<br>
+        <a href="http://openaccess.thecvf.com/content_iccv_2015_workshops/w11/papers/Hu_When_Face_Recognition_ICCV_2015_paper.pdf">[PDF]</a>
+        <label for="publication11" class="bib_label">[BibTeX]</label>
+        <input id="publication11" type="checkbox" style="visibility:hidden">
+        <code id="bibtex11">
+            @INPROCEEDINGS{7406407,
+            author={G. Hu and Y. Yang and D. Yi and J. Kittler and W. Christmas and S. Z. Li and T. Hospedales},
+            booktitle={2015 IEEE International Conference on Computer Vision Workshop (ICCVW)},
+            title={When Face Recognition Meets with Deep Learning: An Evaluation of Convolutional Neural Networks for
+            Face Recognition},
+            year={2015},
+            volume={},
+            number={},
+            pages={384-392},
+            keywords={convolution;face recognition;learning (artificial intelligence);neural nets;visual
+            databases;CNN-FRS performance;convolutional neural network;deep learning;face recognition systems;labeled
+            faces in the wild;private databases;public database LFW;source code;traditional metric learning
+            method;Convolutional codes;Databases;Face;Face recognition;Measurement;Object recognition;Training},
+            doi={10.1109/ICCVW.2015.58},
+            ISSN={},
+            month={Dec},}
+        </code><br>
+        ChaLearn Looking at People Workshop ICCV (ChaLearn LAP) 2015
+    </li>
+</ul>
+<h3>Book Chapter</h3>
+<ul>
+    <li>
+        Unifying Multi-domain Multitask Learning: Tensor and Neural Network Perspectives<br>
+        Yongxin Yang and Timothy M. Hospedales<br>
+        <a href="https://arxiv.org/pdf/1611.09345.pdf">[PDF]</a>
+        <label for="publication5" class="bib_label">[BibTeX]</label>
+        <input id="publication5" type="checkbox" style="visibility:hidden">
+        <code id="bibtex5">
+            @Inbook{Yang2017,
+            author="Yang, Yongxin
+            and Hospedales, Timothy M.",
+            editor="Csurka, Gabriela",
+            title="Unifying Multi-domain Multitask Learning: Tensor and Neural Network Perspectives",
+            bookTitle="Domain Adaptation in Computer Vision Applications",
+            year="2017",
+            publisher="Springer International Publishing",
+            address="Cham",
+            pages="291--309",
+            abstract="Multi-domain learning aims to benefit from simultaneously learning across several different but
+            related domains. In this chapter, we propose a single framework that unifies multi-domain learning (MDL) and
+            the related but better studied area of multitask learningMulti-task learning (MTL). By exploiting the
+            concept of a semantic descriptor we show how our framework encompasses various classic and recent MDL/MTL
+            algorithms as special cases with different semantic descriptor encodings. As a second contribution, we
+            present a higher order generalization of this framework, capable of simultaneous multitask-multi-domain
+            learning. This generalization has two mathematically equivalent views in multilinear algebra and gated
+            neural networks, respectively. Moreover, by exploiting the semantic descriptor, it provides neural networks
+            the capability of zero-shotZero-shot learning learning (ZSL), where a classifier is generated for an unseen
+            class without any training data; as well as zero-shot domain adaptationZero-shot domain adaptation (ZSDA),
+            where a model is generated for an unseen domain without any training data. In practice, this framework
+            provides a powerful yet easy to implement method that can be flexibly applied to MTL, MDL, ZSL, and ZSDA.",
+            isbn="978-3-319-58347-1",
+            doi="10.1007/978-3-319-58347-1_16",
+            url="https://doi.org/10.1007/978-3-319-58347-1_16"
+            }
+        </code><br>
+        Domain Adaptation in Computer Vision Applications pp 291-309, 2017
+    </li>
+</ul>
+
+<hr>
+
+<footer>
+    <p><strong>© 2018 <a href="http://www.wtfpl.net/txt/copying/">WTFPL</a> – Do What the Fuck You Want to Public
+        License.</strong></p>
+</footer>
+
 </body>
 </html>
