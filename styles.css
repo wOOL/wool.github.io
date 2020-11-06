@@ -29,6 +29,10 @@ a:hover {
     cursor: pointer
 }
 
+#publication9:not(:checked) ~ #bibtex9 {
+    display: none
+}
+
 #publication8:not(:checked) ~ #bibtex8 {
     display: none
 }
