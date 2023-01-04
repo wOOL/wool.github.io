@@ -1,0 +1,7 @@
+          <div class="publications">
+            <h2>selected publications</h2>
+            {% assign years = "2022|2021|2020|2019|2018|2017|2016|2015" | split: "|" %}
+            {% for y in years %}
+            {% bibliography -f papers -q @*[selected=true,year={{y}}]* %}
+            {% endfor %}
+          </div>
