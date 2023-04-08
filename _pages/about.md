@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Yongxin Yang is a Lecturer in Financial Technology at Queen Mary University of London, and he is also a (part-time) Professor in Finance at Southwestern University of Finance and Economics (Chengdu, China). Previously, he was a Lecturer in Machine Learning at University of Surrey.
+Yongxin Yang is a Lecturer in Financial Technology at Queen Mary University of London. Previously, he was a Lecturer in Machine Learning at University of Surrey.
 
 He received his PhD from QMUL in 2017, supervised by [Professor Timothy Hospedales](https://homepages.inf.ed.ac.uk/thospeda/ "The Best PhD Supervisor!").
 
